@@ -33,6 +33,7 @@ const Inputs = ({
             className="form-control"
             onChange={(event) => handleName(event)}
             value={person}
+            placeholder="Enter Your Name"
           />
         </div>
       </div>
@@ -45,6 +46,7 @@ const Inputs = ({
             className="form-control"
             onChange={(event) => handleDiscription(event)}
             value={discrip}
+            placeholder="Enter Your Meeting Description"
           />
         </div>
       </div>

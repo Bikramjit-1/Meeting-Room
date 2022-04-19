@@ -74,7 +74,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="mt-3">
-        <h1 className="fw-bolder text-decoration-underline">
+        <h1 className="fw-bolder text-decoration-underline" id="h1tag">
           Meeting Room Booking
         </h1>
         <Inputs
